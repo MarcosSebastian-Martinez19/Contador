@@ -1,0 +1,61 @@
+main {
+    background: radial-gradient(white, red);
+}
+
+.secundario {
+    display: flex;
+    flex-direction: column;
+}
+
+.secundario h1 {
+    text-align: center;
+    color: white;
+}
+
+#contador {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+.btn-contenedor {
+    margin: 20px auto;
+}
+.btn-contenedor .btn {
+    background: radial-gradient(white, red);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+
+/* Lo que creé en JS */
+
+#contador {
+    width: 300px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#contador div {
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: red;
+}
